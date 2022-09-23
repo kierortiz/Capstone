@@ -1,0 +1,11 @@
+// Step 5 nakakapasok na ng 4 pictures
+// inayos ko lang ung step 4 na mga problema d pa kasi pala sya maayos talaga. pacheck nalng kung ano pa Error
+// step 5 ok na ung to be follow nag didisable ung choose file pag pinindot ung to be follow.
+//may folder na din para sa images ng docu
+// yung file name ng step 4 and step 5 oks na din
+// profile image same na din na narerename
+// showmodal document + disable ng comment pag deny at additional buttons pagnadenied ung docu ni user sa progress page
+// re arrange of previous step 5 to step 3.
+// step 5 finish checking for errors nalang.
+// eto yung pang step 6 https://www.sourcecodester.com/tutorials/php/12362/php-how-print-document.html kung sakaling magawa
+// STUDENT SIDE UPDATED = Edit profile with rename complete. View subject complete

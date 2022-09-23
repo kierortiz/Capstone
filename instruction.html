@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Enrollment Procedures</title>
+    <link rel="stylesheet" href="assets//css/terms.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cardo&display=swap" rel="stylesheet">
+    <script src="JS/jquery-2.2.4.min.js"></script>
+</head>
+<body>
+
+  <div class="slideshow-container">
+    <div class="mySlides fade">
+      <img src="assets/slide/1.jpg">
+    </div>
+
+    <div class="mySlides fade">
+      <img src="assets/slide/3.jpg">
+    </div>
+  </div>
+
+  <div class="modal">
+	<div class="modal-content">
+    <header class="head">
+      <div class="logo">
+        <img src="assets/logo.png" alt="">
+        <div class="title">
+          <h1>St. Andrew's Cleverland School</h1>
+          <h3>SACS Antipolo</h3>
+        </div>
+      </div>
+    </header>
+
+		<div class="container">
+      <hr>
+      <br>
+			<h1 style="margin:20px;">Enrollment Procedure</h1>
+
+			<div class="p-margin">
+				<ol>
+					<li>You must Register or Login First before you can proceed.</li>
+					<li>Please Fill up all information truthfully to avoid any problems in the future regarding your Childs Admission Form. You will be asked if your child is new to the school or an old student.</li>
+					<li>For Old Students, we only require Grades from the previous school year. For New Students, the required Documents are as Follows.</li>
+          <dl>
+            <dd>- Grade Card from previous School.</dd>
+            <dd>- Good Moral.</dd>
+            <dd>- Birth Certificate</dd>
+            <dd>- Medical Certificate</dd>
+            <dt>NOTE: You will be required to upload all 4 documents at the same time, if new student . You will receive E-mail notification once your document is accepted or denied. We will require every student to submit Original Documens once face to face classes resumes.</dt>
+          </dl>
+					<li>Picking a Payment Plan, Plan A will a full payment method, Plan B will require you to do a down payment of a minimum of 5000 pesos and the rest will be divided into 3 for the whole school year. Upon selecting a Payment Plan, you will see the tuituin fee break down of each Plan.</li>
+					<li>For now, payments are thru BDO, BPI only. You are required to upload a screenshot of your payment including the reference number for referencing. Please wait 1 to 2 business days for the confirmation of your payment, after the confirmation of the payment you will receive an E-mail notification regarding your payment.</li>
+					<li>Once all documents are verified by the Registrars Office and your Payment verified, you can download or print your Childs registration card at the Enroll page in the website.</li>
+				</ol>
+
+			</div>
+
+		</div>
+	</dib>
+</div>
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+
+  setTimeout(showSlides, 5000); // Change image every 2 seconds
+}
+</script>
+</body>
+</html>
