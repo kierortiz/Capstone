@@ -1,7 +1,7 @@
 # Capstone
 Collaborated a project with 2 other students entitled "An Online Enrollment System Website with Virtual School Tour" for a local private school "St. Andrew's Cleverland School" as our Capstone project.
 
-This project use mainly HTML, CSS, PHP, JavaScript and MySQL as the database. 
+This project use mainly HTML, CSS, PHP, JavaScript, Bootstrap and MySQL as the database. 
 Libraries used are
  - sweetalert2 for pop-up alerts
  - Pannellum for the 360 Virtual School Tour
