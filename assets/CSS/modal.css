@@ -1,0 +1,16 @@
+body{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background: #eaedf2;
+}
+
+.body{
+  display: flex;
+  width: 100vh;
+}
+
+.btn-sub{
+  margin: 0 20px;
+  margin-bottom: 35px;
+}

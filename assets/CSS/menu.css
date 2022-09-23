@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+
+input[type=submit], button{
+	cursor: pointer;
+}
+
+.infocus{
+  background-color: #ddd !important;
+  outline: none;
+  cursor: context-menu !important;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px 30px;
+	background: #cf3d3e;
+	color: #fff;
+}
+.u-name {
+	font-size: 20px;
+	padding-left: 17px;
+}
+
+.header i {
+	font-size: 20px;
+	cursor: pointer;
+	color: #fff;
+}
+.header i:hover {
+	color: #6b747d;
+}
+/* for non pic */
+.user-p {
+	text-align: center;
+	padding-left: 10px;
+	padding-top: 25px;
+	padding-bottom: 15px;
+	border-bottom: solid 0.5px #fff;
+}
+.user-p img {
+	width: 70%;
+	border-radius: 50%;
+}
+.user-p h4 {
+	color: #fff;
+	padding: 5px 0;
+
+
+/* for user pic */
+}
+.user-p2 {
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 15px;
+	border-bottom: solid 0.5px #fff;
+}
+.user-p2 .avatar{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.user-p2 h4 {
+	color: #fff;
+	padding: 5px 0;
+
+}
+.side-bar {
+	width: 320px;
+	background: #2c3136;
+	min-height: 100vh;
+	transition: 500ms width;
+}
+.body {
+	display: flex;
+}
+.section-1{
+	width: 100%;
+	background: #eaedf2;
+}
+.side-bar ul {
+	padding-top: 20px;
+	list-style: none;
+}
+.side-bar i {
+	color: #585c64;
+	width: 1.6rem;
+	margin-right: .2rem;
+}
+
+.side-bar span {
+	margin-left: 5%;
+}
+
+.side-bar ul li {
+	font-size: 16px;
+	transition: 500ms background;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.side-bar ul li:hover {
+	background: #cf3d3e;
+}
+.side-bar ul li a {
+	display: block;
+	padding: 15px 0px;
+	padding-left: 20px;
+	text-decoration: none;
+	color: #fff;
+	cursor: pointer;
+	letter-spacing: 1px;
+}
+.side-bar ul li a i {
+	display: inline-block;
+	padding-right: 15px;
+}
+.border{
+	border: solid gray 1px;
+	border-radius: 4px;
+}
+
+#navbtn {
+	display: inline-block;
+	font-size: 20px;
+	transition: 500ms color;
+}
+#checkbox {
+	display: none;
+}
+#checkbox:checked ~ .body .side-bar {
+	width: 60px;
+}
+#checkbox:checked ~ .body .side-bar .user-p{
+	visibility: hidden;
+}
+#checkbox:checked ~ .body .side-bar .user-p2{
+	visibility: hidden;
+}
+#checkbox:checked ~ .body .side-bar a span{
+	display: none;
+}
+#checkbox:checked ~ .body .side-bar button span{
+	display: none;
+}
+#checkbox:checked ~ .body .side-bar i{
+	color: #fff;
+}
+/* ------------------------------------- drop menu ------------------------------------- */
+
+.dropdown button {
+	padding: 15px 0px;
+  padding-left: 20px;
+}
+
+.dropbtn{
+	font-size: 16px;
+	width: 100%;
+	text-align: inherit;
+	color: white;
+	background-color: inherit;
+	border: none;
+  outline: none;
+	font-family: inherit;
+	display: inherit;
+}
+
+.dropdown-content {
+  display: none;
+	position: relative;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  text-decoration: none;
+  display: flex;
+	padding: 15px 0;
+	padding-left: 20%;
+	color: #fff;
+	background: #40444a;
+}
+
+.dropdown-content a:hover {
+  background: #cf3d3e;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+	transition: 2.3s
+}

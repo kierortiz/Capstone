@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.mid-sec{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.5em;
+  justify-content: space-evenly;;
+}
+
+.about-container{
+  height: auto;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  background-attachment: fixed;
+  background-image: url(../../assets/img/overlay.png), url(../../assets/img/school.jpg);
+  background-position: top center;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+}
+
+.about-child{
+  width: 40%;
+}
+
+.about-container h2{
+  text-align: center;
+  font-size: 2em;
+  text-transform: uppercase;
+}
+
+.about-container p{
+  margin: 80px 0;
+  font-weight: lighter;
+}
+
+.mv-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: -webkit-fill-available;
+  font-family: 'Roboto', sans-serif;
+  padding: 70px 0;
+  background-color: #f6f6f6;
+}
+
+.mv-child{
+  width: 750px;
+	margin: 50px;
+  box-shadow: 0px 0.0375em 0.125em 0px rgb(0 0 0 / 15%);
+  padding: 2em 3em;
+  background: #fff;
+}
+
+
+.mv-child h2{
+	padding: 1em 0;
+  font-size: 2em;
+  text-transform: uppercase;
+}
+
+
+.mv-child p{
+  font-size: 20px;
+  font-weight: lighter;
+}
